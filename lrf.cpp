@@ -1,9 +1,9 @@
-/******************************************
- * Author: Bo Sun
- * Afflication: TAMS, University of Hamburg
- * E-Mail: bosun@informatik.uni-hamburg.de
- * Date: Jan 5, 2015
- *******************************************/
+/********************************************
+ * Author: Bo Sun                           *
+ * Afflication: TAMS, University of Hamburg *
+ * E-Mail: bosun@informatik.uni-hamburg.de  *
+ * Date: Jan 5, 2015                        *
+ ********************************************/
 
 #include <Eigen/Core>
 #include <pcl/point_types.h>
