@@ -36,7 +36,7 @@ main (int argc, char **argv)
   
   clock_t t_whole;
   
-// Get input object and scene
+// Get input data
   if (argc != 2)
   {
     pcl::console::print_error ("Syntax is: %s object.pcd\n", argv[0]);
@@ -51,7 +51,7 @@ main (int argc, char **argv)
     return (1);
   }
 
-// Remove the nan points
+// Remove the nan points if any
   std::vector<int> indices_object_nan;
   pcl::removeNaNFromPointCloud(*object, *object, indices_object_nan);
   
